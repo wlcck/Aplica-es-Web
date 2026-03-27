@@ -1,0 +1,25 @@
+/* Estilizando os inputs */
+input[type="text"] {
+  width: 200px; /* Largura do input */
+  padding: 10px; /* Espaçamento interno */
+  margin: 5px 0; /* Margem superior e inferior */
+  border: 1px solid #ccc; /* Borda com cor cinza */
+  border-radius: 5px; /* Borda arredondada */
+  box-sizing: border-box; /* Considera o padding e a borda como parte do tamanho total */
+}
+
+/* Estilizando o botão */
+button {
+  background-color: #3498db; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branca */
+  padding: 10px 20px; /* Espaçamento interno */
+  border: none; /* Removendo borda */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+}
+
+/* Estilizando a mensagem de resultado */
+#resultado {
+  margin-top: 20px; /* Margem superior */
+  font-size: 18px; /* Tamanho da fonte */
+}
