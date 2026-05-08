@@ -1,0 +1,44 @@
+<style>
+  /* CSS: Define a "maquiagem" do site */
+  .navbar {
+    display: flex; /* Alinha logo e links em linha */
+    justify-content: space-between; /* Empurra o logo pra esquerda e links pra direita */
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none; /* Tira o sublinhado padrão dos links */
+    margin-left: 20px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 40px auto; /* Centraliza o conteúdo no meio da tela */
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+  }
+</style>
+
+<header class="navbar">
+  <div class="logo"><strong>UFN - Aula 19</strong></div>
+  <nav class="nav-links">
+    <a routerLink="/">Home</a>
+    <a routerLink="/contato">Contato</a>
+    <a routerLink="/suporte">Suporte</a>
+    <a routerLink="/cadastro">Cadastrar</a>
+  </nav>
+</header>
+
+<main class="container">
+  <router-outlet></router-outlet> 
+</main>
+
+<footer>
+  <p>&copy; 2026 - Sistemas de Informação - Aplicações Web</p>
+</footer>
